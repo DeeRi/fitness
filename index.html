@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style/main.css" />
   </head>
   <body>
-    <header>
+    <header class="header-main">
       <img src="" alt="Logo" />
       <nav class="menu-navigation">
         <ul>
@@ -27,147 +27,192 @@
           <li>Choose plan</li>
         </ul>
       </nav>
-      <p>Make your body <span class="red">beautiful</span></p>
-      <span>Lorem ipsum dolor sit amet consectetur</span>
-      <a class="button" href="#">Get in touch</a>
+      <div class="container">
+        <p>Make your body <span class="red">beautiful</span></p>
+        <span>Lorem ipsum dolor sit amet consectetur</span>
+        <a class="button" href="#">Get in touch</a>
+      </div>
     </header>
+
     <main>
       <section class="greeting">
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni nobis
-          modi excepturi, error quibusdam nulla?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          iure nisi modi nemo quos necessitatibus dolorem dolore eius aliquid
-          consequuntur.
-        </p>
-        <a class="button" href="#">Get in touch</a>
-        <img src="img/welcome.jpg" alt="" />
+        <div class="container">
+          <h2>Welcome to<span class="red"> fitness</span></h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
+            nobis modi excepturi, error quibusdam nulla?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            iure nisi modi nemo quos necessitatibus dolorem dolore eius aliquid
+            consequuntur.
+          </p>
+          <a class="button" href="#">Get in touch</a>
+          <img src="img/welcome.jpg" alt="" />
+        </div>
       </section>
 
       <section class="services">
-        <div>
-          <img src="img/service1.jpg" alt="" />
-          <h3>Basic Crossfit</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Voluptatum, voluptatem.
-          </p>
-          <a class="button" href="#">Get in touch</a>
-        </div>
-        <div>
-          <img src="img/service2.jpg" alt="" />
-          <h3>Fitness Studio</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Voluptatum, voluptatem.
-          </p>
-          <a class="button" href="#">Get in touch</a>
-        </div>
-        <div>
-          <img src="img/service3.jpg" alt="" />
-          <h3>Yoga Classes</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Voluptatum, voluptatem.
-          </p>
-          <a class="button" href="#">Get in touch</a>
+        <div class="container">
+          <h2>Welcome to<span class="red"> fitness</span></h2>
+          <ul class="services-list">
+            <li class="services-item">
+              <img src="img/service1.jpg" width="350" height="400" alt="" />
+              <div class="services-item-text">
+                <h3>Basic crossfit</h3>
+                <p>
+                  Our staff includes amazing professionals that have an eye for
+                  crossfit.
+                </p>
+                <a class="button" href="#">Get in touch</a>
+              </div>
+            </li>
+
+            <li class="services-item">
+              <img src="img/service2.jpg" width="350" height="400" alt="" />
+              <div class="services-item-text">
+                <h3>Fitness studio</h3>
+                <p>
+                  Work out in fitness groups or with a personal certified
+                  trainer in our gym center.
+                </p>
+                <a class="button" href="#">Get in touch</a>
+              </div>
+            </li>
+
+            <li class="services-item">
+              <img src="img/service3.jpg" width="350" height="400" alt="" />
+              <div class="services-item-text">
+                <h3>Yoga classes</h3>
+                <p>
+                  What do you think about yoga? If you have a passion for this
+                  activity, we’ve got a special program.
+                </p>
+                <a class="button" href="#">Get in touch</a>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
 
       <section class="personal-trainer">
-        <p>We trained with<span class="upper">personal trainer</span></p>
-        <a class="button" href="#">Get in touch</a>
-        <div>
-          <img src="img/trainer1.jpg" alt="Sarra Miller" />
-          <h3>Sarra Miller</h3>
-          <span class="trainer-specialization">Spinning trainer</span>
-          <p>
-            Our staff includes amazing professionals who have an eye for
-            crossfit
-          </p>
+        <div class="personal-trainer-upper">
+          <p>We trained with<span class="upper"> personal trainer</span></p>
+          <a class="button" href="#">Get in touch</a>
         </div>
-        <div>
-          <img src="img/trainer2.jpg" alt="John Doe" />
-          <h3>John Doe</h3>
-          <span class="trainer-specialization">Bootcamp trainer</span>
+
+        <div class="container">
+          <h2>Expert<span class="red"> trainers</span></h2>
           <p>
-            Our staff includes amazing professionals who have an eye for
-            crossfit
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod
           </p>
-        </div>
-        <div>
-          <img src="img/trainer3.jpg" alt="Jack Miller" />
-          <h3>Jack Miller</h3>
-          <span class="trainer-specialization">Spinning trainer</span>
-          <p>
-            Our staff includes amazing professionals who have an eye for
-            crossfit
-          </p>
+          <ul class="trainers-list">
+            <li class="trainers-item">
+              <img src="img/trainer1.png" alt="Sarra Miller" />
+              <div class="trainers-item-text">
+                <h3>Sarra Miller</h3>
+                <span class="trainer-specialization">Spinning trainer</span>
+                <p>
+                  Our staff includes amazing professionals who have an eye for
+                  crossfit
+                </p>
+              </div>
+            </li>
+            <li class="trainers-item">
+              <img src="img/trainer2.png" alt="John Doe" />
+              <div class="trainers-item-text">
+                <h3>John Doe</h3>
+                <span class="trainer-specialization">Bootcamp trainer</span>
+                <p>
+                  Our staff includes amazing professionals who have an eye for
+                  crossfit
+                </p>
+              </div>
+            </li>
+            <li class="trainers-item">
+              <img src="img/trainer3.png" alt="Jack Miller" />
+              <div class="trainers-item-text">
+                <h3>Jack Miller</h3>
+                <span class="trainer-specialization">Spinning trainer</span>
+                <p>
+                  Our staff includes amazing professionals who have an eye for
+                  crossfit
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
 
       <section class="promo">
-        <div>
-          <span>Try for free</span>
-          <span>Free 5 days pass</span>
+        <div class="left-column">
+          <span class="promo-small">Try for free</span>
+          <span class="promo-big">Free 5 days pass</span>
           <a class="button" href="#">Get in touch</a>
         </div>
 
-        <div>
-          <span>Call us and try</span>
-          <span>957 547 4545</span>
+        <div class="right-column">
+          <span class="promo-small">Call us and try</span>
+          <span class="promo-big">957 547 4545</span>
           <a class="button" href="#">Get in touch</a>
         </div>
       </section>
 
-      <footer>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
-        <div>
-          <span>Follow us:</span>
-          <ul class="social">
-            <li class="social-icons"></li>
-            <li class="social-icons"></li>
-            <li class="social-icons"></li>
-            <li class="social-icons"></li>
-            <li class="social-icons"></li>
-            <li class="social-icons"></li>
-            <li class="social-icons"></li>
-            <li class="social-icons"></li>
-          </ul>
-        </div>
+      <footer class="footer-main">
+        <div class="container">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <div>
+            <span>Follow us:</span>
+            <ul class="social">
+              <li class="social-icons"></li>
+              <li class="social-icons"></li>
+              <li class="social-icons"></li>
+              <li class="social-icons"></li>
+              <li class="social-icons"></li>
+              <li class="social-icons"></li>
+              <li class="social-icons"></li>
+              <li class="social-icons"></li>
+            </ul>
+          </div>
 
-<form action="POST">
-  <p>
-  <label class="hidden" for="user-mail">Email</label>
-  <input type="email" placeholder="Enter your email" id="user-mail">
-</p>
-  <button type="submit">Subscribe</button>
-</form>
-        <div>
-          <h4>Blogs</h4>
-          <p>
-            <img src="" alt="" />
-            Lorem ipsum dolor sit amet, consectetur adipiscing
-          </p>
-          <p>
-            <img src="" alt="" />
-            Consectetur adipiscing elit, sed do eiusmod tempor
-          </p>
-          <p>
-            <img src="" alt="" />
-            Sed do eiusmod tempor incididunt ut labore
-          </p>
-        </div>
-        <div>
-          <h4>Instagram</h4>
-          <a href="" aria-label="View more photos">View more photos</a>
+          <form action="POST">
+            <p>
+              <label class="hidden" for="user-mail">Email</label>
+              <input
+                type="email"
+                placeholder="Your Email..."
+                id="user-mail"
+              />
+            </p>
+            <button type="submit">Subscribe</button>
+          </form>
+          <div>
+            <h4>Blogs</h4>
+            <ul class="blog-list">
+              <li>
+                <img src="img/blog1.jpg" alt="" />
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+              </li>
+              <li>
+                <img src="img/blog2.jpg" alt="" />
+                Consectetur adipiscing elit, sed do eiusmod tempor
+              </li>
+              <li>
+                <img src="img/blog3.jpg" alt="" />
+                Sed do eiusmod tempor incididunt ut labore
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4>Instagram</h4>
+            <a href="" aria-label="View more photos">View more photos</a>
+          </div>
         </div>
       </footer>
     </main>
