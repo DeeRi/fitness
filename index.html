@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="header-main">
-      <img src="" alt="Logo" />
+      <span class="logo">Fitne<span class="red">ss</span></span>
       <nav class="menu-navigation">
         <ul>
           <li>Home</li>
@@ -19,7 +19,6 @@
           <li>Contacts</li>
         </ul>
       </nav>
-
       <nav class="user-navigation">
         <ul>
           <li>Login</li>
@@ -28,8 +27,10 @@
         </ul>
       </nav>
       <div class="container">
-        <p>Make your body <span class="red">beautiful</span></p>
-        <span>Lorem ipsum dolor sit amet consectetur</span>
+        <p class="motto">Make your body <span class="red">beautiful</span></p>
+        <span class="motto-capture"
+          >Lorem ipsum dolor sit amet consectetur</span
+        >
         <a class="button" href="#">Get in touch</a>
       </div>
     </header>
@@ -38,17 +39,23 @@
       <section class="greeting">
         <div class="container">
           <h2>Welcome to<span class="red"> fitness</span></h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
-            nobis modi excepturi, error quibusdam nulla?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-            iure nisi modi nemo quos necessitatibus dolorem dolore eius aliquid
-            consequuntur.
-          </p>
-          <a class="button" href="#">Get in touch</a>
-          <img src="img/welcome.jpg" alt="" />
+          <div class="greeting-left-column">
+            <p class="first-paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea
+            </p>
+            <a class="button" href="#">Get in touch</a>
+          </div>
+        </div>
+          <div class="greeting-right-column">
+            <img src="img/greeting.png" alt="" />
         </div>
       </section>
 
@@ -184,11 +191,7 @@
           <form action="POST">
             <p>
               <label class="hidden" for="user-mail">Email</label>
-              <input
-                type="email"
-                placeholder="Your Email..."
-                id="user-mail"
-              />
+              <input type="email" placeholder="Your Email..." id="user-mail" />
             </p>
             <button type="submit">Subscribe</button>
           </form>
