@@ -9,21 +9,20 @@
   </head>
   <body>
     <header class="header-main">
-      <span class="logo">Fitne<span class="red">ss</span></span>
+      <div class="header-main-content">
+      <a href="#" class="logo">Fitne<span class="red">ss</span></a>
       <nav class="menu-navigation">
         <ul>
-          <li>Home</li>
-          <li>About us</li>
-          <li>Page</li>
-          <li>Blog</li>
-          <li>Contacts</li>
+          <li><a href="">Home</a></li>
+          <li><a href="">About us</a></li>
+          <li><a href="">Page</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contacts</a></li>
         </ul>
-      </nav>
-      <nav class="user-navigation">
         <ul>
-          <li>Login</li>
-          <li>Sign up</li>
-          <li>Choose plan</li>
+          <li><a href="">Login</a></li>
+          <li><a href="">Sign up</a></li>
+          <li><a class="order" href="">Choose plan</a></li>
         </ul>
       </nav>
       <div class="container">
@@ -33,6 +32,7 @@
         >
         <a class="button" href="#">Get in touch</a>
       </div>
+    </div>
     </header>
 
     <main>
@@ -157,17 +157,24 @@
           <span class="promo-small">Try for free</span>
           <span class="promo-big">Free 5 days pass</span>
           <a class="button" href="#">Get in touch</a>
+          <div class="img-wrapper">
+        </div>
         </div>
 
         <div class="right-column">
           <span class="promo-small">Call us and try</span>
           <span class="promo-big">957 547 4545</span>
           <a class="button" href="#">Get in touch</a>
+          <div class="img-wrapper">
+        </div>
         </div>
       </section>
 
       <footer class="footer-main">
         <div class="container">
+          <div class="footer-main-content">
+          <div class="footer-main-first-column">
+            <a href="#" class="logo">Fitne<span class="red">ss</span></a>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -176,26 +183,25 @@
           </p>
           <div>
             <span>Follow us:</span>
-            <ul class="social">
-              <li class="social-icons"></li>
-              <li class="social-icons"></li>
-              <li class="social-icons"></li>
-              <li class="social-icons"></li>
-              <li class="social-icons"></li>
-              <li class="social-icons"></li>
-              <li class="social-icons"></li>
-              <li class="social-icons"></li>
+            <ul class="social-links">
+              <li><a class="social-icons fb" href="#"></a></li>
+              <li><a class="social-icons twitter" href="#"></a></li>
+              <li><a class="social-icons instagram" href="#"></a></li>
+              <li><a class="social-icons pin" href="#"></a></li>
+              <li><a class="social-icons google" href="#"></a></li>
+              <li><a class="social-icons utube" href="#"></a></li>
+              <li><a class="social-icons dribble" href="#"></a></li>
+              <li><a class="social-icons telegram" href="#"></a></li>
             </ul>
           </div>
+        </div>
 
-          <form action="POST">
-            <p>
+          <form class="form-subscription" action="POST">
               <label class="hidden" for="user-mail">Email</label>
               <input type="email" placeholder="Your Email..." id="user-mail" />
-            </p>
             <button type="submit">Subscribe</button>
           </form>
-          <div>
+          <div class="footer-main-second-column">
             <h4>Blogs</h4>
             <ul class="blog-list">
               <li>
@@ -212,11 +218,12 @@
               </li>
             </ul>
           </div>
-          <div>
+          <div  class="footer-main-third-column">
             <h4>Instagram</h4>
             <a href="" aria-label="View more photos">View more photos</a>
           </div>
         </div>
+      </div>
       </footer>
     </main>
   </body>
