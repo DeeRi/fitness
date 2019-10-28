@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Fitness</title>
+    <link rel="stylesheet" href="style/selectric.css" />
     <link rel="stylesheet" href="style/main.css" />
   </head>
   <body>
@@ -43,7 +44,7 @@
           <span class="motto-capture"
             >Lorem ipsum dolor sit amet, consectetur</span
           >
-          <a class="button" href="#">Get in touch</a>
+          <a class="button_main" href="#">Get in touch</a>
         </div>
       </div>
     </header>
@@ -64,7 +65,7 @@
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea
             </p>
-            <a class="button" href="#">Get in touch</a>
+            <a class="button_main" href="#">Get in touch</a>
           </div>
           <img class="greeting_img" src="img/greeting.png" alt="" />
         </div>
@@ -87,7 +88,7 @@
                     Our staff includes amazing professionals that have an eye
                     for crossfit.
                   </p>
-                  <a class="button" href="#">Get in touch</a>
+                  <a class="button_main" href="#">Get in touch</a>
                 </div>
               </li>
 
@@ -99,7 +100,7 @@
                     Work out in fitness groups or with a personal certified
                     trainer in our gym center.
                   </p>
-                  <a class="button" href="#">Get in touch</a>
+                  <a class="button_main" href="#">Get in touch</a>
                 </div>
               </li>
 
@@ -111,7 +112,7 @@
                     What do you think about yoga? If you have a passion for this
                     activity, we’ve got a special program.
                   </p>
-                  <a class="button" href="#">Get in touch</a>
+                  <a class="button_main" href="#">Get in touch</a>
                 </div>
               </li>
             </ul>
@@ -122,7 +123,7 @@
       <section class="personal-trainer">
         <div class="personal-trainer-upper">
           <p>We trained with<span class="upper"> personal trainer</span></p>
-          <a class="button" href="#">Get in touch</a>
+          <a class="button_main" href="#">Get in touch</a>
         </div>
 
         <div class="container">
@@ -176,7 +177,7 @@
           <div class="left-column-content">
             <span class="promo-small">Try for free</span>
             <span class="promo-big">Free 5 days pass</span>
-            <a class="button" href="#">Get in touch</a>
+            <a class="button_main" href="#">Get in touch</a>
           </div>
           <div class="img-wrapper"></div>
         </div>
@@ -184,7 +185,7 @@
         <div class="right-column">
           <span class="promo-small">Call us and try</span>
           <span class="promo-big">957 547 4545</span>
-          <a class="button" href="#">Get in touch</a>
+          <a class="button_main" href="#">Get in touch</a>
           <div class="img-wrapper"></div>
         </div>
       </section>
@@ -424,31 +425,49 @@
             <h4>Instagram</h4>
             <ul class="inst-pistures">
               <li>
-                <a href="#"><img src="img/inst1.jpg" alt="Instagram picture"/></a>
+                <a href="#"
+                  ><img src="img/inst1.jpg" alt="Instagram picture"
+                /></a>
               </li>
               <li>
-                <a href="#"><img src="img/inst2.jpg" alt="Instagram picture"/></a>
+                <a href="#"
+                  ><img src="img/inst2.jpg" alt="Instagram picture"
+                /></a>
               </li>
               <li>
-                <a href="#"><img src="img/inst3.jpg" alt="Instagram picture"/></a>
+                <a href="#"
+                  ><img src="img/inst3.jpg" alt="Instagram picture"
+                /></a>
               </li>
               <li>
-                <a href="#"><img src="img/inst4.jpg" alt="Instagram picture"/></a>
+                <a href="#"
+                  ><img src="img/inst4.jpg" alt="Instagram picture"
+                /></a>
               </li>
               <li>
-                <a href="#"><img src="img/inst5.jpg" alt="Instagram picture"/></a>
+                <a href="#"
+                  ><img src="img/inst5.jpg" alt="Instagram picture"
+                /></a>
               </li>
               <li>
-                <a href="#"><img src="img/inst6.jpg" alt="Instagram picture"/></a>
+                <a href="#"
+                  ><img src="img/inst6.jpg" alt="Instagram picture"
+                /></a>
               </li>
               <li>
-                <a href="#"><img src="img/inst7.jpg" alt="Instagram picture"/></a>
+                <a href="#"
+                  ><img src="img/inst7.jpg" alt="Instagram picture"
+                /></a>
               </li>
               <li>
-                <a href="#"><img src="img/inst8.jpg" alt="Instagram picture"/></a>
+                <a href="#"
+                  ><img src="img/inst8.jpg" alt="Instagram picture"
+                /></a>
               </li>
               <li>
-                <a href="#"><img src="img/inst9.jpg" alt="Instagram picture"/></a>
+                <a href="#"
+                  ><img src="img/inst9.jpg" alt="Instagram picture"
+                /></a>
               </li>
             </ul>
             <a class="link" href="#" aria-label="View more photos"
@@ -458,5 +477,59 @@
         </div>
       </div>
     </footer>
+
+    <section class="booking">
+      <div class="booking-left-column">
+        <img src="img/application_form.jpg" alt="" />
+      </div>
+      <div class="booking-right-column">
+        <h2 class="hidden">Free booking</h2>
+        <p>Free 7 days <span>Online booking</span></p>
+        <form action="URL" method="POST">
+          <p>
+            <label class="hidden" for="people_number">Number of people</label>
+            <select name="" id="people_number">
+              <option value="3 People">3 People</option>
+              <option value="4 People">4 People</option>
+              <option value="5 People">5 People</option>
+              <option value="6 People">6 People</option>
+            </select>
+          </p>
+
+          <p>
+            <label class="hidden" for="chosen_date">Date</label>
+            <input type="date" id="chosen_date" placeholder="Date"/>
+          </p>
+
+          <p>
+            <label class="hidden" for="chosen_time">Time</label>
+            <input type="time" id="chosen_time" />
+          </p>
+
+          <p>
+            <label class="hidden" for="name">Number of people</label>
+            <select name="" id="name">
+              <option value="name">Name</option>
+              <option value="surname">Surname</option>
+            </select>
+          </p>
+
+          <p>
+            <label class="hidden" for="user_phone">Pnone</label>
+            <input type="tel" id="user_phone" placeholder="Phone" />
+          </p>
+
+          <p>
+            <label class="hidden" for="user_mail">Email</label>
+            <input type="email" id="user_mail" placeholder="Email" />
+          </p>
+          <button class="send_form" type="submit">Get in touch</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.selectric.min.js"></script>
   </body>
 </html>
