@@ -3,6 +3,9 @@
 ======================================*/
 
 .selectric-wrapper {
+  font-weight: 400;
+  color: #6b6a6c;
+  text-transform: capitalize;
   position: relative;
   cursor: pointer;
 }
@@ -13,7 +16,6 @@
 
 .selectric {
   border: none;
-  background: #F8F8F8;
   position: relative;
 }
 
